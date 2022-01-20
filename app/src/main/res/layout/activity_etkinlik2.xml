@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Etkinlik">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+
+        app:srcCompat="@drawable/etkinlik" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnav"
+                android:layout_width="175dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/buray"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="-150dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="34dp"
+                android:text="BURAY KONSERİ"
+                android:textColor="@color/black"
+
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="154dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="24 ARALIK 2022"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <ImageButton
+                android:id="@+id/btntiyatro"
+                android:layout_width="175dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tiyatro"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="215dp"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginTop="-150dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="34dp"
+                android:text="TİYATRO"
+                android:textColor="@color/black"
+
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView388"
+                android:layout_width="154dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="25 NİSAN 2022"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <ImageButton
+                android:id="@+id/btnmac"
+                android:layout_width="175dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/halisaha"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="-150dp"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="34dp"
+                android:text="BJK-TS MAÇI"
+                android:textColor="@color/black"
+
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="154dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="23 ŞUBAT 2022"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <ImageButton
+                android:id="@+id/btnsatranc"
+                android:layout_width="175dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/satranc"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="-150dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="34dp"
+                android:fontFamily="@font/aclonica"
+                android:text="SATRANÇ TURNUVASI"
+                android:textColor="@color/black"
+
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="154dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="14 MAYIS 2022"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <ImageButton
+                android:id="@+id/btnbasket"
+                android:layout_width="175dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/basket"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="-150dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="34dp"
+                android:fontFamily="@font/aclonica"
+                android:text="BASKETBOL MAÇI"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="154dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="22 TEMMUZ 2022"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="110dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

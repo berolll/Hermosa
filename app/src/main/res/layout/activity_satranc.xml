@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parti">
+
+    <TextView
+        android:id="@+id/txtKalanhak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kalan kişi sayısı : 300"
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnHarita"
+        app:layout_constraintTop_toBottomOf="@+id/txtsaat"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/txtbilgi"
+        android:layout_width="395dp"
+        android:layout_height="83dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Anneler günü Satranç Turnuvası na katılımlarınızı bekliyoruz.."
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/txtyer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtyer"
+        android:layout_width="203dp"
+        android:layout_height="115dp"
+        android:text="Adres : Merkez, Reşit Paşa Cd. No:63, 34310 Avcılar/İstanbul"
+        android:textColor="#171616"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <ImageButton
+        android:id="@+id/btnHarita"
+        android:layout_width="65dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/txtyer"
+        app:layout_constraintEnd_toEndOf="@+id/txtyer"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtyer"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/harita"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnkat"
+        android:layout_width="415dp"
+        android:layout_height="61dp"
+        android:textAlignment="center"
+
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/aclonica"
+        android:text="Katıl"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.879" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/aclonica"
+        android:text="SATRANÇ TURNUVASI"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tarih : 14.05.2022"
+        android:textColor="#130101"
+        android:textColorHint="#A50A0A"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toEndOf="@+id/txtyer"
+        app:layout_constraintTop_toBottomOf="@+id/txtbilgi" />
+
+    <TextView
+        android:id="@+id/txtsaat"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:text="Saat : 08.00"
+        android:textColor="#0C0C0C"
+        android:textSize="17sp"
+
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtyer"
+        app:layout_constraintTop_toTopOf="@+id/txttarih" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="410dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtbilgi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.461"
+        app:srcCompat="@drawable/satranc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

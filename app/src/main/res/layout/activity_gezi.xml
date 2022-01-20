@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parti">
+
+    <TextView
+        android:id="@+id/txtKalanhak"
+        android:layout_width="166dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="32dp"
+        android:text="kalan kişi sayısı : 15"
+        android:textColor="#070707"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtbilgi"
+        android:layout_width="384dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Herkese merhaba,\nDoğayla iç içe olan dağ gezimizde hem bedenimizi hem ruhumuzu eğlenirken dinlendirmeye bekliyoruz ."
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/txtyer"
+        android:layout_width="212dp"
+        android:layout_height="95dp"
+        android:text="Adres :Kemer, 34450 Sarıyer/İstanbul"
+        android:textColor="#171616"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtbilgi" />
+
+    <ImageButton
+        android:id="@+id/btnHarita"
+        android:layout_width="65dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="@+id/txtyer"
+        app:layout_constraintTop_toBottomOf="@+id/txtbilgi"
+        app:layout_constraintVertical_bias="0.679"
+        app:srcCompat="@drawable/harita"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnkat"
+        android:layout_width="415dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/black"
+
+        android:fontFamily="@font/aclonica"
+        android:text="Katıl"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAĞ GEZİSİ"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:text="Tarih : 24.05.2022"
+        android:textColor="#130101"
+        android:textColorHint="#A50A0A"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtsaat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saat : 08.00"
+        android:textColor="#0C0C0C"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnkat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/txtyer"
+        app:layout_constraintTop_toBottomOf="@+id/txtbilgi"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="414dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/txtbilgi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dagvideo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
